@@ -38,7 +38,7 @@ extern "C" {
 #define HPDF_DOC_INVALID_OBJECT                   0x100C
 /*                                                0x100D */
 #define HPDF_DUPLICATE_REGISTRATION               0x100E
-#define HPDF_EXCEED_JWW_CODE_NUM_LIMIT            0x100F
+/*      HPDF_EXCEED_JWW_CODE_NUM_LIMIT            0x100F */
 /*                                                0x1010 */
 #define HPDF_ENCRYPT_INVALID_PASSWORD             0x1011
 /*                                                0x1012 */
@@ -148,6 +148,13 @@ extern "C" {
 /*                                                0x1086 */
 /*                                                0x1087 */
 #define HPDF_INVALID_SHADING_TYPE                 0x1088
+
+#define HPDF_TOO_SMALL_PDF_VERSION                0x1090
+#define HPDF_CONVERTER_NOT_FOUND                  0x1091
+#define HPDF_NOT_UTF_ENCODING                     0x1092
+#define HPDF_FAILD_TO_NEW_CONVERTER               0x1093
+#define HPDF_UNMATCHED_RELIEF_FONT                0x1094
+#define HPDF_LOOPED_RELIEF_FONT                   0x1095
 
 /*---------------------------------------------------------------------------*/
 
